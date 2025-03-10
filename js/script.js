@@ -42,10 +42,10 @@ const teamMembers = [
 
 // ciclo for per prendermi tutte le proprietà e pusharle nel mio html
 
-const container= document.querySelector("div.container");
+const container = document.querySelector("div.container");
 
-for(let i=0;i<teamMembers.length; i++){
-  const teamMembersElements=document.createElement('div');
+for (let i = 0; i < teamMembers.length; i++) {
+  const teamMembersElements = document.createElement('div');
   teamMembersElements.classList.add('card-container');
 
   teamMembersElements.innerHTML = `            <div class="image">
